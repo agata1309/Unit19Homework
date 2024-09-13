@@ -1,0 +1,193 @@
+/* Navigation styles */
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+.logo {
+  width: 13%;
+  padding: 1%;
+  text-align: right;
+}
+.logoImg {
+  float: left;
+  
+}
+
+
+nav {
+  width: 82%;
+  padding: 1%;
+}
+nav ul {
+  float: right;
+  padding: 5px 10px;
+  color: black;
+}
+nav ul li{
+  padding: 5px 10px;
+}
+
+.heroImg {
+  height: 600px;
+  padding: 25px;
+  float: center;
+  background-color:cornsilk;
+
+}
+
+/* body {
+  background: cornsilk;
+  animation: fadeBackground 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeBackground {
+  from { background-color:cornsilk; }
+  to { background-color: #dceae4; }
+} */
+
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mySkills-tittle {
+    text-align:center;
+  }
+  
+.mySkills {
+    display:flex;
+    gap: 8rem;
+    padding: 15px;
+    border:1px solid grey;
+    margin-bottom: 20px;
+  }
+  
+  .mySkills div{
+    width:18%;
+    padding: 5px;
+   } 
+  
+  
+   .flexContainer {
+   display: flex; 
+   flex-direction:row;
+    text-align: left;
+   }
+  
+  .myWork h1 {
+    text-align: center;
+  }
+  
+  
+  .workGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 15px;
+  }
+.viewAll{
+  text-align: center;
+}
+ .button {
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  width: 200px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid purple;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 6px;
+  cursor: pointer;
+ }
+
+ .button:hover {
+  background-color: purple;
+  color: white;
+ }
+
+.button1 {
+  font-size: 16px;
+  padding: 6px 6px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  width: 200px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid purple;
+}
+
+.button1:hover {
+  background-color: purple;
+  color: white;
+}
+
+.button2 {
+  font-size: 16px;
+  padding: 6px 6px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  width: 200px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid purple;
+}
+
+.button2:hover {
+  background-color: purple;
+  color: white;
+}
+
+.button3 {
+font-size: 16px;
+padding: 6px 6px;
+border-radius: 12px;
+transition-duration: 0.4s;
+width: 200px;
+background-color: white; 
+color: black; 
+border: 2px solid purple;
+}
+.button3:hover {
+  background-color: purple;
+  color: white;
+}
+
+
+footer {
+  background-color: #373738;
+  padding: 20px 0px;
+}
+footer ul {
+  display: inline-block;
+  vertical-align: bottom;
+}
+footer ul li {
+  padding: 5px 10px;
+  color: #fff;
+}
+
+
+@media only screen and (max-width:600px) {
+  body{
+    width: auto;
+
+    .workGrid {
+      grid-template-columns:1fr ;
+    }
+      .mySkills {
+        display: block; 
+         text-align:center ;
+        }
+      } }
+
+
+
+
+
