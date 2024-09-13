@@ -23,7 +23,7 @@
       </div>
 <section class="heroImg">
     <div class="content">  
-       <img src="/images/agata13.png" alt="Agata Photo" style="width:300px;">
+       <img class="myImg" src="/images/agata13.png" alt="Agata Photo" width="300px";>
         <h1>Hello, I am Agata Orkisz!</h1>
     <p>I am Detail-oriented UX Designer with a strong foundation
        in precision and quality control from a background in Metrology. 
@@ -37,31 +37,37 @@
     </p>
     <a class="btn content-download button button-scheme" href="/images/Resume.pdf" download="Agata Orkisz Resume" >Download Resume</a>
      <!-- <button> Download Resume</button>    -->
+      <!-- Trigger/Open The Modal -->
+
+<button id="myBtn">Contact Info</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p> Phone :630 439 5563 </p>
+
+     <p>Email: agata.orkisz@gmail.com</p>
+  </div>
+
+</div>
     </div>
 </section> 
 
-<!-- HW 18 Content -->
+<!-- Content -->
 <div class="mySkills-tittle">
 <h1>My UX Skills</h1>
 </div>          
-     <section class="mySkills">  
-            
-    
-                <div >
-                
-                <img src="/images/heart-fill.svg" height="50px">
-                  
-                <h4>EMAPTHIZE</h4>
-                
-                    
-                <p class="mySkills1">User Interviews</p>
-                <p class="mySkills1">Affinity Diagrams</p>
-                
-               
-                  
-              </div>
-              <div >
-
+    <section class="mySkills">  
+        <div >
+            <img src="/images/heart-fill.svg" height="50px"> 
+            <h4>EMAPTHIZE</h4>
+             <p class="mySkills1">User Interviews</p>
+            <p class="mySkills1">Affinity Diagrams</p>         
+        </div>
+         <div >
                 <img src="/images/lightbulb.svg" width="50px">
                 <h4>  DEFINE</h4>
                 
@@ -163,57 +169,13 @@
     <li class="inline-block">CONTACT</li>
   </ul>
 </footer>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="js/index.js"></script>
-    
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous">
+</script>
+       <script src="/js/index.js"></script>
+
 </body>
 </html>   
   
-<!--     
-
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Animation</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-        #logo {
-            width: 200px;
-            position: absolute;
-            top: 100px;
-            left: 100px;
-            transition: all 0.5s ease-in-out;
-        }
-    </style>
-</head>
-<body>
-
-    <img id="logo" src="your-image.png" alt="Logo">
-
-    <script>
-        $(document).ready(function(){
-            // Function to animate the image
-            function animateImage() {
-                $('#logo').animate({
-                    left: '+=30',    // Move right by 30px
-                    top: '+=15',     // Move down by 15px
-                    width: '+=10'    // Increase the width by 10px
-                }, 1000, function() {
-                    // Reverse the animation to create a continuous gentle movement
-                    $('#logo').animate({
-                        left: '-=30',
-                        top: '-=15',
-                        width: '-=10'
-                    }, 1000);
-                });
-            }
-
-            // Call the animateImage function every 2 seconds to create a looping effect
-            setInterval(animateImage, 2000);
-        });
-    </script>
-
-</body>
-</html>
